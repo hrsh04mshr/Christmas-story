@@ -233,3 +233,10 @@ body {
     font-size: 12px !important;
   }
 }
+
+.stamps {
+  width: 80px;
+  @media screen and (max-width: 720px) {
+    width: 40px;
+  }
+}
